@@ -26,13 +26,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\Constants.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="include\Particle.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\Vector2D.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

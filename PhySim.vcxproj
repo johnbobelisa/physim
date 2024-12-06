@@ -144,9 +144,7 @@
     <ClCompile Include="src\Vector2D.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\Constants.h" />
     <ClInclude Include="include\Particle.h" />
-    <ClInclude Include="include\Vector2D.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

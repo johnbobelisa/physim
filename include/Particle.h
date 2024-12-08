@@ -5,7 +5,6 @@
 class Particle {
 	public:
 		// Particle constructor (runs when a particle is created)
-		// This is what the Particle "knows":
 		Particle(
 			const sf::Vector2f& pos = sf::Vector2f(0.f, 0.f),
 			const sf::Vector2f& vel = sf::Vector2f(0.f, 0.f),

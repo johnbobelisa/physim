@@ -1,4 +1,5 @@
 #include "Main.h"
+#include "../src/MotionInDimensions/ProjectileMotion.h"
 #include <SFML/Graphics.hpp>
 #include <vector>
 #include <string>
@@ -20,15 +21,9 @@ int main() {
 
     // Menus
     std::vector<std::string> mainMenuItems = { "Simulate", "Quit" };
-    std::vector<std::string> simTopicsMenuItems = { "Motion in One Dimension" };
+    std::vector<std::string> simTopicsMenuItems = { "Motion in One and Two Dimensions" };
     std::vector<std::string> motionOneDimSubMenuItems = {
-        "Displacement, Velocity, and Speed",
-        "Instantaneous Velocity and Speed",
-        "Acceleration",
-        "Motion Diagrams",
-        "One-Dimensional Motion with Constant Acceleration",
-        "Freely Falling Objects",
-        "Kinematic Equations Derived from Calculus"
+        "Projectile Motion"
     };
 
     AppState currentState = AppState::MainMenu;
@@ -78,20 +73,22 @@ int main() {
                         }
                     }
                     else if (currentState == AppState::SimTopicsMenu) {
-                        if (chosen == "Motion in One Dimension") {
+                        if (chosen == "Motion in One and Two Dimensions") {
                             currentState = AppState::MotionOneDimSubMenu;
                             currentMenuItems = &motionOneDimSubMenuItems;
                             updateMenu(*currentMenuItems);
                         }
                     }
                     else if (currentState == AppState::MotionOneDimSubMenu) {
-                        // Here, you would start the simulation related to the chosen sub-topic.
-                        // For now, let's just close to demonstrate.
-                        window.close();
+                        if (chosen == "Projectile Motion") {
+                            // Run the projectile motion simulation:
+                            // Close the current menu window and then run simulation in a separate window.
+                            window.close();
+                            runProjectileMotionSimulation();
+                        }
                     }
                 }
                 else if (event.key.code == sf::Keyboard::Escape) {
-                    // Go back up one level in the menu hierarchy
                     if (currentState == AppState::MotionOneDimSubMenu) {
                         currentState = AppState::SimTopicsMenu;
                         currentMenuItems = &simTopicsMenuItems;

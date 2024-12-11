@@ -14,38 +14,41 @@ std::vector<sf::Text> createMenuTextObj(const std::vector<std::string>& menuItem
 }
 
 sf::RectangleShape positionMenuAndCreateBox(std::vector<sf::Text>& textObjects, sf::RenderWindow& window, sf::Color highlightColor) {
-    float maxWidth = 0.0f;
+    float maxWidth = 0.0f; //max width of text
     for (auto& t : textObjects) {
         float width = t.getLocalBounds().width;
         if (width > maxWidth) maxWidth = width;
     }
 
     float lineSpacing = 50.0f;
-    float totalHeight = textObjects.size() * lineSpacing;
+    float totalHeight = textObjects.size() * lineSpacing; // Total height of all text objects
     float centerX = window.getSize().x / 2.0f;
     float centerY = window.getSize().y / 2.0f;
 
-    float startY = centerY - (totalHeight / 2.0f);
+    float startY = centerY - (totalHeight / 2.0f); 
     for (size_t i = 0; i < textObjects.size(); ++i) {
-        sf::FloatRect bounds = textObjects[i].getLocalBounds();
+        sf::FloatRect bounds = textObjects[i].getLocalBounds(); // left,top,width,height
         float textWidth = bounds.width;
         float textHeight = bounds.height;
         textObjects[i].setPosition(
-            centerX - (textWidth / 2.0f) - bounds.left,
-            (startY + i * lineSpacing) - (textHeight / 2.0f) - bounds.top
+            centerX - (textWidth / 2.0f),
+            (startY + i * lineSpacing) - (textHeight / 2.0f)
         );
     }
 
     float paddingX = 50.0f;
     float paddingY = 50.0f;
 
+    // Making the outline around the text
     float minX = 999999.f, minY = 999999.f;
     float maxX = -999999.f, maxY = -999999.f;
 
     for (auto& t : textObjects) {
-        sf::FloatRect globalBounds = t.getGlobalBounds();
+        sf::FloatRect globalBounds = t.getGlobalBounds(); // The text's position using global coordinates
+
         if (globalBounds.left < minX) minX = globalBounds.left;
         if (globalBounds.top < minY)  minY = globalBounds.top;
+
         float right = globalBounds.left + globalBounds.width;
         float bottom = globalBounds.top + globalBounds.height;
         if (right > maxX) maxX = right;

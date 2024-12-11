@@ -6,8 +6,10 @@
 enum class AppState {
     MainMenu,
     SimTopicsMenu,
-    MotionOneDimSubMenu
+    MotionOneDimSubMenu,
+    ProjectileSimulation
 };
 
 std::vector<sf::Text> createMenuTextObj(const std::vector<std::string>& menuItems, const sf::Font& font, sf::Color textColor);
+
 sf::RectangleShape positionMenuAndCreateBox(std::vector<sf::Text>& textObjects, sf::RenderWindow& window, sf::Color highlightColor);

@@ -18,10 +18,10 @@
     <ClInclude Include="include\Particle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\1D-Motion\1D-Motion.h">
+    <ClInclude Include="include\Main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\Main.h">
+    <ClInclude Include="src\MotionInDimensions\ProjectileMotion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -32,10 +32,10 @@
     <ClCompile Include="src\Particle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\1D-Motion\1D-Motion.cpp">
+    <ClCompile Include="src\MainHelpers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\MainHelpers.cpp">
+    <ClCompile Include="src\MotionInDimensions\ProjectileMotion.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

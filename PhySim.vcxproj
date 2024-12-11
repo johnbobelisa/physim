@@ -21,11 +21,11 @@
   <ItemGroup>
     <ClInclude Include="include\Main.h" />
     <ClInclude Include="include\Particle.h" />
-    <ClInclude Include="src\1D-Motion\1D-Motion.h" />
+    <ClInclude Include="src\MotionInDimensions\ProjectileMotion.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="src\1D-Motion\1D-Motion.cpp" />
+    <ClCompile Include="src\MotionInDimensions\ProjectileMotion.cpp" />
     <ClCompile Include="src\Particle.cpp" />
     <ClCompile Include="src\MainHelpers.cpp" />
   </ItemGroup>

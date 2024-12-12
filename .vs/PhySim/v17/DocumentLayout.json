@@ -7,20 +7,32 @@
       "RelativeMoniker": "D:0:0:{6D78B09A-6973-4F81-968B-8EFFCA880B0E}|PhySim.vcxproj|solutionrelative:src\\MotionInDimensions\\ProjectileMotion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D78B09A-6973-4F81-968B-8EFFCA880B0E}|PhySim.vcxproj|C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\src\\MotionInDimensions\\ProjectileMotion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6D78B09A-6973-4F81-968B-8EFFCA880B0E}|PhySim.vcxproj|solutionrelative:src\\MotionInDimensions\\ProjectileMotion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6D78B09A-6973-4F81-968B-8EFFCA880B0E}|PhySim.vcxproj|C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\src\\MotionInDimensions\\Ball.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6D78B09A-6973-4F81-968B-8EFFCA880B0E}|PhySim.vcxproj|solutionrelative:src\\MotionInDimensions\\Ball.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D78B09A-6973-4F81-968B-8EFFCA880B0E}|PhySim.vcxproj|C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\src\\MotionInDimensions\\Ball.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6D78B09A-6973-4F81-968B-8EFFCA880B0E}|PhySim.vcxproj|solutionrelative:src\\MotionInDimensions\\Ball.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D78B09A-6973-4F81-968B-8EFFCA880B0E}|PhySim.vcxproj|C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\include\\Particle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6D78B09A-6973-4F81-968B-8EFFCA880B0E}|PhySim.vcxproj|solutionrelative:include\\Particle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D78B09A-6973-4F81-968B-8EFFCA880B0E}|PhySim.vcxproj|C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\src\\MainHelpers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6D78B09A-6973-4F81-968B-8EFFCA880B0E}|PhySim.vcxproj|solutionrelative:src\\MainHelpers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D78B09A-6973-4F81-968B-8EFFCA880B0E}|PhySim.vcxproj|C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6D78B09A-6973-4F81-968B-8EFFCA880B0E}|PhySim.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D78B09A-6973-4F81-968B-8EFFCA880B0E}|PhySim.vcxproj|C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\include\\Main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6D78B09A-6973-4F81-968B-8EFFCA880B0E}|PhySim.vcxproj|solutionrelative:include\\Main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6D78B09A-6973-4F81-968B-8EFFCA880B0E}|PhySim.vcxproj|C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\src\\MotionInDimensions\\ProjectileMotion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6D78B09A-6973-4F81-968B-8EFFCA880B0E}|PhySim.vcxproj|solutionrelative:src\\MotionInDimensions\\ProjectileMotion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D78B09A-6973-4F81-968B-8EFFCA880B0E}|PhySim.vcxproj|C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\src\\MainHelpers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6D78B09A-6973-4F81-968B-8EFFCA880B0E}|PhySim.vcxproj|solutionrelative:src\\MainHelpers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6D78B09A-6973-4F81-968B-8EFFCA880B0E}|PhySim.vcxproj|C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\include\\Main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6D78B09A-6973-4F81-968B-8EFFCA880B0E}|PhySim.vcxproj|solutionrelative:include\\Main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +42,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ball.cpp",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\src\\MotionInDimensions\\Ball.cpp",
+              "RelativeDocumentMoniker": "src\\MotionInDimensions\\Ball.cpp",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\src\\MotionInDimensions\\Ball.cpp",
+              "RelativeToolTip": "src\\MotionInDimensions\\Ball.cpp",
+              "ViewState": "AQIAABEAAAAAAAAAAAAowCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-12T11:53:12.738Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,22 +65,35 @@
               "RelativeDocumentMoniker": "src\\MotionInDimensions\\ProjectileMotion.cpp",
               "ToolTip": "C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\src\\MotionInDimensions\\ProjectileMotion.cpp",
               "RelativeToolTip": "src\\MotionInDimensions\\ProjectileMotion.cpp",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAtwAwAAAAbAAAA",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAowGMAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-11T04:47:31.38Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProjectileMotion.h",
-              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\src\\MotionInDimensions\\ProjectileMotion.h",
-              "RelativeDocumentMoniker": "src\\MotionInDimensions\\ProjectileMotion.h",
-              "ToolTip": "C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\src\\MotionInDimensions\\ProjectileMotion.h",
-              "RelativeToolTip": "src\\MotionInDimensions\\ProjectileMotion.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "Ball.h",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\src\\MotionInDimensions\\Ball.h",
+              "RelativeDocumentMoniker": "src\\MotionInDimensions\\Ball.h",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\src\\MotionInDimensions\\Ball.h",
+              "RelativeToolTip": "src\\MotionInDimensions\\Ball.h",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAowB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-11T04:43:19.698Z",
+              "WhenOpened": "2024-12-12T11:53:01.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Particle.h",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\include\\Particle.h",
+              "RelativeDocumentMoniker": "include\\Particle.h",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\include\\Particle.h",
+              "RelativeToolTip": "include\\Particle.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-12T11:30:52.371Z",
               "EditorCaption": ""
             },
             {
@@ -66,14 +104,39 @@
               "RelativeDocumentMoniker": "src\\MainHelpers.cpp",
               "ToolTip": "C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\src\\MainHelpers.cpp",
               "RelativeToolTip": "src\\MainHelpers.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-09T11:54:10.966Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\Main.cpp",
+              "RelativeDocumentMoniker": "Main.cpp",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\Main.cpp",
+              "RelativeToolTip": "Main.cpp",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAowGgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-08T12:22:39.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProjectileMotion.h",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\src\\MotionInDimensions\\ProjectileMotion.h",
+              "RelativeDocumentMoniker": "src\\MotionInDimensions\\ProjectileMotion.h",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\src\\MotionInDimensions\\ProjectileMotion.h",
+              "RelativeToolTip": "src\\MotionInDimensions\\ProjectileMotion.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-11T04:43:19.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Main.h",
               "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\include\\Main.h",
               "RelativeDocumentMoniker": "include\\Main.h",
@@ -81,21 +144,7 @@
               "RelativeToolTip": "include\\Main.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-09T11:48:28.775Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Main.cpp",
-              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\Main.cpp",
-              "RelativeDocumentMoniker": "Main.cpp",
-              "ToolTip": "C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\Main.cpp",
-              "RelativeToolTip": "Main.cpp",
-              "ViewState": "AQIAAGQAAAAAAAAAAAAAAAIAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-08T12:22:39.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:48:28.775Z"
             }
           ]
         }

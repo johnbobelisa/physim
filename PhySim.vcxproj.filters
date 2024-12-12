@@ -24,6 +24,9 @@
     <ClInclude Include="src\MotionInDimensions\ProjectileMotion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\MotionInDimensions\Ball.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -36,6 +39,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\MotionInDimensions\ProjectileMotion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MotionInDimensions\Ball.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -33,8 +33,7 @@ bool Ball::isScored(float basketX_m, float basketY_m, float threshold_m) const {
 }
 
 bool Ball::isOutOfBounds(float maxX_m, float maxY_m) const {
-    // If the ball goes beyond the right or bottom of the screen or even off left/top
-    // (just to cover all cases), consider it out of bounds.
+    // If the ball goes beyond any boundary, consider it out of bounds.
     return (x_m < 0.f || x_m > maxX_m || y_m < 0.f || y_m > maxY_m);
 }
 

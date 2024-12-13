@@ -42,8 +42,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ball.h",
+              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\src\\MotionInDimensions\\Ball.h",
+              "RelativeDocumentMoniker": "src\\MotionInDimensions\\Ball.h",
+              "ToolTip": "C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\src\\MotionInDimensions\\Ball.h",
+              "RelativeToolTip": "src\\MotionInDimensions\\Ball.h",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAowBMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-13T10:50:27.282Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -52,7 +65,7 @@
               "RelativeDocumentMoniker": "src\\MotionInDimensions\\Ball.cpp",
               "ToolTip": "C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\src\\MotionInDimensions\\Ball.cpp",
               "RelativeToolTip": "src\\MotionInDimensions\\Ball.cpp",
-              "ViewState": "AQIAABEAAAAAAAAAAAAowCwAAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAowBsAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-12T11:53:12.738Z",
               "EditorCaption": ""
@@ -65,22 +78,9 @@
               "RelativeDocumentMoniker": "src\\MotionInDimensions\\ProjectileMotion.cpp",
               "ToolTip": "C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\src\\MotionInDimensions\\ProjectileMotion.cpp",
               "RelativeToolTip": "src\\MotionInDimensions\\ProjectileMotion.cpp",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAowGMAAAAwAAAA",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAAwH8AAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-11T04:47:31.38Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Ball.h",
-              "DocumentMoniker": "C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\src\\MotionInDimensions\\Ball.h",
-              "RelativeDocumentMoniker": "src\\MotionInDimensions\\Ball.h",
-              "ToolTip": "C:\\Users\\Asus\\OneDrive\\Documents\\My projects\\physim\\src\\MotionInDimensions\\Ball.h",
-              "RelativeToolTip": "src\\MotionInDimensions\\Ball.h",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAowB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-12T11:53:01.231Z",
               "EditorCaption": ""
             },
             {
@@ -93,8 +93,7 @@
               "RelativeToolTip": "include\\Particle.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-12T11:30:52.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T11:30:52.371Z"
             },
             {
               "$type": "Document",
@@ -106,8 +105,7 @@
               "RelativeToolTip": "src\\MainHelpers.cpp",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-09T11:54:10.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:54:10.966Z"
             },
             {
               "$type": "Document",
@@ -119,8 +117,7 @@
               "RelativeToolTip": "Main.cpp",
               "ViewState": "AQIAAFsAAAAAAAAAAAAowGgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-08T12:22:39.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T12:22:39.756Z"
             },
             {
               "$type": "Document",

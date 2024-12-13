@@ -40,5 +40,5 @@ bool Ball::isOutOfBounds(float maxX_m, float maxY_m) const {
 
 void Ball::setSprite(const sf::Sprite& spr) {
     sprite = spr;
-    // Adjust origin if needed, currently assuming top-left alignment
+    sprite.setOrigin(sprite.getTexture()->getSize().x / 2, sprite.getTexture()->getSize().y / 2);  // center
 }

@@ -41,47 +41,56 @@ void runProjectileMotionSimulation() {
         return;
     }
 
-    sf::Sprite spriteCharacter(character);
     sf::Sprite spriteBackground(background);
+    sf::Sprite spriteCharacter(character);
     sf::Sprite spriteBall(ballTex);
     sf::Sprite spriteCart(cart);
 
-    // Scale background to window
+    // Scale background to window size
     sf::Vector2u textureSize = background.getSize();
     sf::Vector2u windowSize = window.getSize();
     float scaleX = static_cast<float>(windowSize.x) / textureSize.x;
     float scaleY = static_cast<float>(windowSize.y) / textureSize.y;
     spriteBackground.setScale(scaleX, scaleY);
 
-    // Positions in pixels (from initial code)
-    spriteCharacter.setPosition(98.f, 661.f);
-    spriteBall.setPosition(120.f, 549.f);
-    spriteBall.setScale(0.25f, 0.25f);
-    spriteCart.setPosition(1530.f, 690.f);
+    // Set origins and positions so that each sprite is truly centered
+    {
+        // Character
+        sf::FloatRect charBounds = spriteCharacter.getLocalBounds();
+        spriteCharacter.setOrigin(charBounds.width / 2.f, charBounds.height / 2.f);
+        spriteCharacter.setPosition(118.f, 800.f);
 
-    // Define scale factor
-    float scale = 100.f; // 100 px = 1 m
+        // Cart
+        sf::FloatRect cartBounds = spriteCart.getLocalBounds();
+        spriteCart.setOrigin(cartBounds.width / 2.f, cartBounds.height / 2.f);
+        spriteCart.setPosition(1550.f, 800.f);
+
+        // Ball
+        spriteBall.setScale(0.25f, 0.25f);
+        sf::FloatRect ballBounds = spriteBall.getLocalBounds();
+        spriteBall.setOrigin(ballBounds.width / 2.f, ballBounds.height / 2.f);
+        spriteBall.setPosition(120.f, 549.f);
+    }
+
+    float scale = 100.f; // 100 pixels = 1 meter
 
     // Convert initial positions to meters
-    float ballStartX_m = 120.f / scale;
-    float ballStartY_m = 549.f / scale;
+    float ballStartX_m = spriteBall.getPosition().x / scale;
+    float ballStartY_m = spriteBall.getPosition().y / scale;
 
-    float basketX_m = 1530.f / scale; // 15.3 m
-    float basketY_m = 690.f / scale;  // 6.9 m
+    // The basket is at the cart's center for simplicity
+    float basketX_m = spriteCart.getPosition().x / scale;
+    float basketY_m = spriteCart.getPosition().y / scale;
 
-    // Initial speed and angle (could be user input)
-    float initialSpeed = 11.5f;      // m/s
-    float initialAngle = 45.f;      // degrees
-    float gravity = 9.8f;           // m/s²
+    // Initial speed and angle
+    float initialSpeed = 11.5f;   // m/s
+    float initialAngle = 45.f;    // degrees
+    float gravity = 9.8f;         // m/s²
 
     // Create the Ball object
     Ball volleyball(ballStartX_m, ballStartY_m, initialSpeed, initialAngle, gravity, scale);
-
     sf::Sprite ballSpriteForBall(spriteBall);
-    // Optionally set origin to the center of the ball for better collision checks:
-    sf::FloatRect bounds = ballSpriteForBall.getLocalBounds();
-    ballSpriteForBall.setOrigin(bounds.width / 2.f, bounds.height / 2.f);
-    volleyball.setSprite(ballSpriteForBall);
+    volleyball.setSprite(ballSpriteForBall); // Ball now uses the centered sprite
 
     // Text for status (goal or no goal)
     sf::Text statusText;
@@ -94,8 +103,6 @@ void runProjectileMotionSimulation() {
     bool goalScored = false;
     bool outOfBounds = false;
 
-    sf::Clock clock;
-
     while (window.isOpen()) {
         float dt = 1.f / 60.f; // fixed timestep
 
@@ -105,7 +112,7 @@ void runProjectileMotionSimulation() {
                 window.close();
             }
             else if (event.type == sf::Event::Resized) {
-                // Re-scale background if needed
+                // Re-scale background
                 sf::Vector2u newWindowSize(event.size.width, event.size.height);
                 float scaleX = static_cast<float>(newWindowSize.x) / textureSize.x;
                 float scaleY = static_cast<float>(newWindowSize.y) / textureSize.y;
@@ -118,12 +125,14 @@ void runProjectileMotionSimulation() {
             volleyball.update(dt);
 
             // Check for scoring
-            if (volleyball.isScored(basketX_m, basketY_m)) {
+            if (volleyball.isScored(basketX_m, basketY_m, 1.1f)) {
                 simulationRunning = false;
                 goalScored = true;
             }
+
             // Check out of bounds
-            if (volleyball.isOutOfBounds((float)windowSize.x / scale, (float)windowSize.y / scale)) {
+            if (volleyball.isOutOfBounds(static_cast<float>(windowSize.x) / scale,
+                static_cast<float>(windowSize.y) / scale)) {
                 simulationRunning = false;
                 outOfBounds = true;
             }

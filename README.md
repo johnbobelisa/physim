@@ -35,9 +35,9 @@ Over time, I plan to expand physim to include simulations for more fundamental p
 As these features are developed, I will introduce corresponding demos and documentation.
 
 ## Demos
-Projectile Motion Demo (Video)
+Projectile Motion Demo (Video): https://youtu.be/2NtaPTdb8nE 
 
-Technical Highlights:
-Language & Library: Implemented in C++ with SFML for graphics and event handling.
-From Scratch Physics: All formulas, constants, and computations—such as gravitational acceleration, velocity decomposition, and trajectory/angle calculations—are hand-coded. No physics libraries are used.
-Scalability: The code structure is designed to grow with new topics and more complex scenarios without sacrificing clarity.
+## Technical Highlights:
+- Language & Library: Implemented in C++ with SFML for graphics and event handling.
+- From Scratch Physics: All formulas, constants, and computations—such as gravitational acceleration, velocity decomposition, and trajectory/angle calculations—are hand-coded. No physics libraries are used.
+- Scalability: The code structure is designed to grow with new topics and more complex scenarios without sacrificing clarity.
